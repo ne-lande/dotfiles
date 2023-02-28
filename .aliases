@@ -1,0 +1,21 @@
+#!/bin/bash
+
+alias vim="nvim"
+
+#alias ..= "cd '..'"
+#alias ...= "cd '../..'"
+#alias ....= "cd '../../..'"
+#alias .....= "cd '../../../..'"
+
+if ls --color > /dev/null 2>&1; then # GNU `ls`
+	colorflag="--color"
+else # OS X `ls`
+	colorflag="-G"
+fi
+
+alias l="ls -lhF ${colorflag}"
+alias la="ls -lahF ${colorflag}"
+alias lsd="ls -lhF ${colorflag} | grep --color=never '^d'"
+alias ls="ls ${colorflag}"
+
+alias grep="grep --color=auto "
