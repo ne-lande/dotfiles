@@ -12,7 +12,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'vim-airline/vim-airline-themes'
 Plug 'bling/vim-airline'
 Plug 'tpope/vim-surround'
-Plug 'scroolloose/nerdtree'
+Plug 'preservim/nerdtree'
 Plug 'bling/vim-bufferline'
 
 call plug#end()

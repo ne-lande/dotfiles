@@ -19,3 +19,10 @@ alias lsd="ls -lhF ${colorflag} | grep --color=never '^d'"
 alias ls="ls ${colorflag}"
 
 alias grep="grep --color=auto "
+
+
+#kitty magix
+alias ssh="kitty +kitten ssh"
+alias icat="kitty +kitten icat"
+alias diff="kitty +kitten diff"
+
