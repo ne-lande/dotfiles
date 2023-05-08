@@ -26,3 +26,7 @@ alias ssh="kitty +kitten ssh"
 alias icat="kitty +kitten icat"
 alias diff="kitty +kitten diff"
 
+alias untar='tar xvf'
+alias cwd='pwd | tr -d "\r\n" | xclip -selection clipboard'
+alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
+alias week='date +%V'
