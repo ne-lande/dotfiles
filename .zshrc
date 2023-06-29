@@ -26,6 +26,9 @@ else
 	colorflag="-G"
 fi
 
+export GTK_USE_PORTAL=1
+export XDG_DESKTOP_PORTAL=1
+
 # ls funny
 alias l="ls -lhF ${colorflag}"
 alias la="ls -lahF ${colorflag}"
