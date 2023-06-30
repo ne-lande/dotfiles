@@ -3,12 +3,6 @@ HISTSIZE=1000
 SAVEHIST=1000
 bindkey -v
 bindkey -e
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/nelande/.zshrc'
-
-autoload -Uz compinit
-compinit
 
 
 #
@@ -28,6 +22,8 @@ fi
 
 export GTK_USE_PORTAL=1
 export XDG_DESKTOP_PORTAL=1
+
+export PATH=~/bin:~/go/bin:$PATH
 
 # ls funny
 alias l="ls -lhF ${colorflag}"
