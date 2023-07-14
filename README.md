@@ -2,24 +2,24 @@
 
 ## What it is
 
-    My personal dotfiles repo!
-    I'm trying to revisit it every 2 weeks with fixes and .
-    
-    These config must be crossplatform within *ARCH* ~btw~ and OSX
+My personal dotfiles repo!
+I'm trying to revisit it every 2 weeks with fixes and improvments
+
+These config must be crossplatform within **ARCH** ~~btw~~ and OSX
 
 ## What is done (nothing is done)
 
-    Nvim config
-    Kitty config
-    Zsh config
+Nvim config
+Kitty config
+Zsh config
 
 ## What needs to be done
-    
-    Setup script
-    ~neofetch config~
-    Putting dotfiles on framework rails (maybe?)
-    Unified keymaps
-    Starship config
+
+Setup script
+~~neofetch config~~
+Putting dotfiles on framework rails (maybe?)
+Unified keymaps
+Starship config
 
 ## What is used
 
