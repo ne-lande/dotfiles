@@ -9,7 +9,7 @@ set nocompatible
 set tabstop=4
 set shiftwidth=4
 set expandtab
-
+set nomagic
 
 highlight clear SignColumn
 highlight LineNr ctermfg=grey
@@ -32,6 +32,9 @@ let g:airline_theme='dark'
 let g:airline_section_b = '%{strftime("%c")}'
 let g:airline_powerline_fonts = 1
 
+let g:ycm_extra_conf_globlist = 1
+let g:ycm_confirm_extra_conf = 1
 let g:ycm_auto_trigger = 1
 
+autocmd VimEnter * NERDTree
 nnoremap <C-t> :NERDTreeToggle <CR>

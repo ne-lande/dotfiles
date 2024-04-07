@@ -18,7 +18,7 @@ These configs must be crossplatform within **ARCH** ~~btw~~ and OSX
  - Setup script
  - ~~neofetch config~~
  - Putting dotfiles on framework rails (maybe?)
- - Unified keymaps
+ - Unified keymaps (almost, ~~kde fucks me in the ass :c~~)
  - Starship config
 
 ## What is used
