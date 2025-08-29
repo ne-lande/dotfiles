@@ -1,5 +1,9 @@
 # nelande's dotfiles
 
+## Notice
+
+This repo is archived, all configuration can be accessed in https://github.com/ne-lande/nix
+
 ## What it is
 
 My personal dotfiles repo!
